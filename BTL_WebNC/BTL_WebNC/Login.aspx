@@ -22,8 +22,8 @@
                     <asp:TextBox ID="txtUsername" runat="server" class="form-control" placeholder="Your User name *"></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <b><asp:Label Text="User name" ID="Label1" runat="server" /></b>
-                    <asp:TextBox ID="txtPass" type="password" runat="server" class="form-control" placeholder="Your Password *"></asp:TextBox>
+                    <b><asp:Label Text="Password" ID="Label1" runat="server" /></b>
+                    <asp:TextBox ID="txtPass" type="text" runat="server" class="form-control" placeholder="Your Password *"></asp:TextBox>
                 </div>
                 <div class="form-group">
                     <asp:Button runat="server" CssClass="btn btn-info btn-rounded btn-block center" ID="btnLogin" Text="Login" OnClick="btnLogin_Click" />
